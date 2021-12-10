@@ -15,11 +15,15 @@ body{
 }
 
 main{
-
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
 }
 
 fieldset{
-    margin: auto;
+
+    margin-top: 70px;
+    margin-bottom: 70px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(2, 15, 54);
     border-color: rgb(2, 15, 54);
@@ -53,11 +57,11 @@ h1{
 }
 
 nav{
-    
+    margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flexbox;
-    padding-right: 10px;
-
+    font-weight: bold;
+    padding-right: 30px;
+    color: rgb(9, 4, 56);
 }
 
 div:hover{
